@@ -29,7 +29,7 @@ jobs:
         run: python ${{ github.workspace }}/IPTV.py
       - name: 提交更改
         run: |
-          git config --local user.email "2224646559@qq.com"
+          git config --local user.email "1315532689@qq.com"
           git config --local user.name "kkllllkkkk"
           git add .
           git commit *.txt -m "Add generated file"
